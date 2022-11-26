@@ -1,0 +1,26 @@
+#nav-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    #title {
+        margin: 15px;
+    }
+
+    #search-bar {
+        input {
+            background-color: transparent;
+            border: 2px solid $lightOrange;
+            width: 30vmin;
+            height: 25px;
+            border-radius: 12px;
+            padding: 5px;
+            transition: .2s ease-in;
+            font-size: 18px;
+        }
+        input:focus {
+            border: 2px solid $darkOrange;
+            outline: none;
+        }
+    }
+}
